@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync('testFile.txt').toString().trim().split('\n');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 
 const count = Number(input[0]);
 const arr = [];
@@ -18,4 +18,4 @@ for( let j = 0 ; j < sortedArr.length ; j +=1 ){
   result += sortedArr[j].join(' ') + '\n';
 }
 
-console.log(result)
+console.log(result);
