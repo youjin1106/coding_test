@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync('testFile.txt').toString().trim().split('\n');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 
 let [n, k] = (input[0]).split(' ').map(Number);
 const coinList = [];
