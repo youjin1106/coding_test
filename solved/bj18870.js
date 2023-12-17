@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync('testFile.txt').toString().trim().split('\n');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 
 const count = Number(input[0]);
 const arr = input[1].split(' ').map(Number);
